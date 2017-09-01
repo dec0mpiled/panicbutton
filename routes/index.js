@@ -46,7 +46,7 @@ var nexmo = new Nexmo({
 });
 
 nexmo.message.sendSms(
-  '12015946976', '12697693161', 'Someone would like to enter your room.',
+  '12015946976', '12697693161', '[Doorbell API] Someone would like to enter your room.',
     (err, responseData) => {
       if (err) {
         console.log(err);
